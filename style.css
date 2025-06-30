@@ -1,0 +1,150 @@
+body,
+.home-bg {
+    margin: 0px;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.home-bg {
+    background-image: url(./images/body.jpg);
+    background-size: cover;
+    background-position: 0 160px;
+}
+
+.recipe-bg {
+    background-image: url(./images/recipe-bg.png);
+    background-size: cover;
+}
+
+.container,
+.recipe-container {
+    width: 650px;
+    margin: 120px auto;
+    padding: 50px 100px;
+    box-shadow: 5px 5px 20px 20px rgba(0, 0, 0, 0.5), -5px -5px 20px 20px rgba(0, 0, 0, 0.5);
+    background-color: lab(100% 0.01 -0.01 / 0.493);
+    border-radius: 50px;
+    font-size: 35px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.heading {
+    display: inline-block;
+    background-color: khaki;
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 20px 20px rgba(0, 0, 0, 0.5), -5px -5px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.header-box {
+
+    background-color: antiquewhite;
+    border-bottom: 5px solid black;
+    padding: 10px 50px;
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    font-weight: 1000;
+    font-size: 120px;
+    padding: 0;
+    margin: 0px;
+
+}
+
+.head {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: bisque;
+    border-radius: 30px;
+    padding: 10px;
+    padding-bottom: 350px;
+}
+
+.go-to-recipe {
+    background-color: darkkhaki;
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    color: black;
+    border: 2.5px rgb(0, 0, 0) solid;
+    border-radius: 50px;
+}
+
+.go-to-recipe:hover {
+    background-color: khaki;
+    box-shadow: 5px 5px 10px 10px rgba(255, 255, 0, 0.5), -5px -5px 10px 10px rgba(255, 255, 0, 0.5);
+
+}
+
+.links {
+    margin: 0px 10px;
+    background-color: transparent;
+    color: darkred;
+    border: transparent;
+    padding: 5px;
+
+}
+
+.links:hover {
+    background-color: rgba(189, 183, 107, 0.85);
+    box-shadow: 5px 5px 10px 10px rgba(189, 183, 107, 0.7), -5px -5px 10px 10px rgba(189, 183, 107, 0.7);
+}
+
+.container {
+    width: 1300px;
+    background-color: lab(100% 0.01 -0.01 / 0.7);
+}
+
+.description,
+.ingredients,
+.steps,
+.final-img {
+    border: 5px solid green;
+    border-radius: 30px;
+    margin: 0px;
+}
+
+.ingredients {
+    display: inline-block;
+    padding: 30px 100px;
+}
+
+.description,
+.steps {
+    padding: 10px 70px;
+
+}
+
+.final-img {
+    object-fit: cover;
+    width: 800px;
+    height: 600px;
+}
+
+.heading-img {
+    text-align: center;
+}
+footer {
+    background-color: antiquewhite;
+    border-top: 5px solid black;
+}
+.fun {
+    display: block;
+    width: 500px;
+    margin: auto;
+    margin-top: -370px;
+    margin-bottom: 70px;
+    border-radius: 30px;
+}
+.rec-lists {
+    width: 220px;
+    margin: auto;
+}
