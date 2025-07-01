@@ -1,7 +1,6 @@
-body,
-.home-bg {
+body {
     margin: 0px;
-    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
@@ -18,13 +17,21 @@ body,
 
 .container,
 .recipe-container {
-    width: 650px;
     margin: 120px auto;
     padding: 50px 100px;
     box-shadow: 5px 5px 20px 20px rgba(0, 0, 0, 0.5), -5px -5px 20px 20px rgba(0, 0, 0, 0.5);
-    background-color: lab(100% 0.01 -0.01 / 0.493);
     border-radius: 50px;
     font-size: 35px;
+}
+
+.recipe-container {
+    width: 650px;
+    background-color: rgba(255, 255, 255, 0.493);
+}
+
+.container {
+    width: 1300px;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 h1 {
@@ -44,7 +51,6 @@ h2 {
 }
 
 .header-box {
-
     background-color: antiquewhite;
     border-bottom: 5px solid black;
     padding: 10px 50px;
@@ -98,18 +104,12 @@ h2 {
     box-shadow: 5px 5px 10px 10px rgba(189, 183, 107, 0.7), -5px -5px 10px 10px rgba(189, 183, 107, 0.7);
 }
 
-.container {
-    width: 1300px;
-    background-color: lab(100% 0.01 -0.01 / 0.7);
-}
-
 .description,
 .ingredients,
 .steps,
 .final-img {
     border: 5px solid green;
     border-radius: 30px;
-    margin: 0px;
 }
 
 .ingredients {
@@ -132,10 +132,12 @@ h2 {
 .heading-img {
     text-align: center;
 }
+
 footer {
     background-color: antiquewhite;
     border-top: 5px solid black;
 }
+
 .fun {
     display: block;
     width: 500px;
@@ -144,6 +146,7 @@ footer {
     margin-bottom: 70px;
     border-radius: 30px;
 }
+
 .rec-lists {
     width: 220px;
     margin: auto;
